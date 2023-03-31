@@ -1,0 +1,245 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Navbar */
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  .nav-links li a:hover {
+    color: #fff;
+    background-color: #333;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .logo img {
+    height: 80px;
+    padding: 10px;
+  }
+  
+  /* Hero Section */
+  
+  .hero {
+    background-image: url(images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    position: relative;
+  }
+  
+  .hero-overlay {
+    background-color: rgba(3, 83, 10, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #06a73681;
+    color: #333;
+    padding: 10px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #07681c;
+    color: #fff;
+  }
+  
+  /* About Section */
+  
+  .about {
+    padding: 100px 0;
+  }
+  
+  .about h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .about p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .about-img {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .about-img img {
+    max-width: 100%;
+  }
+  
+  /* Ministries Section */
+  
+  .ministries {
+    padding: 100px 0;
+    background-color: #f4f4f4;
+  }
+  
+  .ministries h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .ministries-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .ministry {
+    flex-basis: calc(33.33% - 20px);
+    background-color: #fff;
+    padding: 40px;
+    margin-right: 10px;
+  }
+  /* Footer */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 0;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #ccc;
+}
+
+/* Contact Form */
+/* Contact form */
+
+#contact {
+  background-color: #f7f7f7;
+  padding: 60px 0;
+}
+
+#contact h2 {
+  margin-bottom: 30px;
+}
+
+#contact form {
+  margin-top: 30px;
+}
+
+#contact form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact form label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#contact form input[type="text"],
+#contact form input[type="email"],
+#contact form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+#contact form textarea {
+  resize: none;
+}
+
+#contact form button {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 4px;
+  background-color: #2d5b87;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+}
+
+#contact form button:hover {
+  background-color: #204f75;
+  cursor: pointer;
+}
+
+/* About Page */
